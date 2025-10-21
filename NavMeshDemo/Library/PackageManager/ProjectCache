@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638966752603408216
-    m_Hash: 4131325021
+      ticks: 638966800327972027
+    m_Hash: 4209458754
   m_LockFileStatus:
     m_FilePath: C:/NavMeshDemo/NavMeshDemo/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638966752603464662
-    m_Hash: 1283692847
+      ticks: 638966800328053910
+    m_Hash: 48610737
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,12 +22,12 @@ m_LocalPackages:
 m_ProjectPath: C:/NavMeshDemo/NavMeshDemo/Packages
 m_EditorVersion: 6000.0.51f1 (01c3ff5872c5)
 m_ResolvedPackages:
-- packageId: com.unity.ai.navigation@2.0.8
+- packageId: com.unity.ai.navigation@2.0.9
   testable: 0
   isDirectDependency: 1
-  version: 2.0.8
+  version: 2.0.9
   source: 1
-  resolvedPath: C:\NavMeshDemo\NavMeshDemo\Library\PackageCache\com.unity.ai.navigation@eb5635ad590d
+  resolvedPath: C:\NavMeshDemo\NavMeshDemo\Library\PackageCache\com.unity.ai.navigation@5218e4bf7edc
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -111,13 +111,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638841129733020000
+  datePublishedTicks: 638919725134710000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ai.navigation.git
-    revision: edeb8e889d1eedf4001fa41bdab7d69d01a62f24
+    revision: 91b1bd9119720d8e48b9f9de9ad18da1e8c1088e
     path: 
   unityLifecycle:
     version: 2.0.8
@@ -130,12 +130,21 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Fixed\n* Samples will now use appropriate material
-    colors in projects using HDRP or URP. Install the **com.unity.shadergraph** package
-    to show the materials correctly for built-in render pipeline projects."}'
+  upmReserved: '{"changelog":"### Added\n* New sample scene **9_agent_cornering_control**
+    to demonstrate controlling an agent''s velocity in order to better navigate tight
+    corners. ([UUM-59747](https://issuetracker.unity3d.com/product/unity/issues/guid/UUM-59747))\n\n###
+    Fixed\n* Fixed samples not correctly configuring navigation agent types when
+    imported into a project.\n* Foldouts in **AI Navigation** overlay collapse when
+    toggling settings. ([NAVB-144](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-144))\n*
+    Fixed poor performance when enabling/disabling increasing numbers of NavMeshModifiers.
+    ([NAVB-96](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-96))\n*
+    A small white square was displayed in the scene on top of the gizmo icons for
+    NavMesh Link, NavMesh Modifier Volume and NavMesh Surface. ([NAVB-154](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-154))\n*
+    **Navigation Updater** no longer attempts to process scenes and prefabs from
+    the read-only **Packages** folder. ([NAVB-146](https://issuetracker.unity3d.com/product/unity/issues/guid/NAVB-146))"}'
   assetStore:
     productId: 
-  fingerprint: eb5635ad590d47cef2a5c920d9475cc222db3f67
+  fingerprint: 5218e4bf7edc04fcad4ed3836c1c41aef334b996
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.8
